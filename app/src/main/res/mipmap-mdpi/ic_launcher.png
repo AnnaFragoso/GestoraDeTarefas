@@ -1,0 +1,39 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="1" />
+      <entry action="$Delete" count="2" />
+      <entry action="$Paste" count="1" />
+      <entry action="$Undo" count="1" />
+      <entry action="Android.CreateResourceDirectory" count="1" />
+      <entry action="CloseProject" count="3" />
+      <entry action="EditorBackSpace" count="117" />
+      <entry action="EditorChooseLookupItem" count="2" />
+      <entry action="EditorCopy" count="7" />
+      <entry action="EditorDelete" count="1" />
+      <entry action="EditorDown" count="48" />
+      <entry action="EditorEnter" count="17" />
+      <entry action="EditorLeft" count="52" />
+      <entry action="EditorLeftWithSelection" count="26" />
+      <entry action="EditorLineEnd" count="5" />
+      <entry action="EditorLineStartWithSelection" count="1" />
+      <entry action="EditorPaste" count="16" />
+      <entry action="EditorRight" count="14" />
+      <entry action="EditorTab" count="1" />
+      <entry action="EditorUp" count="3" />
+      <entry action="EditorUpWithSelection" count="4" />
+      <entry action="Git.Pull" count="2" />
+      <entry action="Git.Stash" count="1" />
+      <entry action="NextTemplateVariable" count="1" />
+      <entry action="OpenModuleSettings" count="1" />
+      <entry action="SaveAll" count="12" />
+      <entry action="ShowIntentionActions" count="8" />
+      <entry action="template.create.ActivityEmpty Activity" count="1" />
+      <entry action="template.create.FragmentFragment (Blank)" count="2" />
+      <entry action="template.create.XMLLayout XML File" count="1" />
+    </counts>
+  </component>
+  <component name="FeatureUsageStatistics" first-run="1538923021173" have-been-shown="false" show-in-other="true" show-in-compilation="true">
+    <feature id="refactoring.moveTopLevel" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.rename" count="0" last-sho
