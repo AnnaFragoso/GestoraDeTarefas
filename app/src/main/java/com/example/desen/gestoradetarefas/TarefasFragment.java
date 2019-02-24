@@ -28,6 +28,12 @@ public class TarefasFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_tarefas, container, false);
 
         container = (ViewGroup) v.findViewById(R.id.container);
+       // titulo = v.findViewById(R.id.txtTitulo);
+        //mensagem = v.findViewById(R.id.mensagem);
+       /* CardView cardView = (CardView) LayoutInflater.from(this) .inflate(R.layout.card, container, false);
+        TextView titulo = (TextView) cardView.findViewById(R.id.titulo);
+        TextView mensagem = (TextView) cardView.findViewById(R.id.mensagem);*/
+
 
         Tarefas tar = TarefaSingleton.getInstance().getTarefas();
 
@@ -42,7 +48,20 @@ public class TarefasFragment extends Fragment {
             mensagem.setText(tar.getDescricao());
             container.addView(cardView);
         }
+
+       /* private void addItem(String titulo, String mensagem) {
+           // CardView cardView = (CardView) LayoutInflater.from(this) .inflate(R.layout.card, container, false);
+            TextView titulo = (TextView) cardView.findViewById(R.id.titulo);
+            TextView mensagem = (TextView) cardView.findViewById(R.id.mensagem);
+            titulo.setText(titulo);
+            mensagem.setText(mensagem);
+            container.addView(cardView);
+        }
+
+        addItem("Título 1", "Exemplo de mensagem."); */
+
        return v;
     }
+
 
 }
